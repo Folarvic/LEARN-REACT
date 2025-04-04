@@ -34,7 +34,7 @@ nav > span {
 
 main {
     padding: 60px 30px;
-    background-image: url(/images/react-logo-half.png);
+    background-image: url(/public/react-logo-half.png);
     background-repeat: no-repeat;
     background-position: right 70%;
 }
@@ -57,4 +57,53 @@ main > h1 {
 .facts-list > li::marker {
     color: #61DAFB;
     font-size: 1.5rem;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header > h1 {
+    margin: 0;
+    font-size: 2.4rem;
+}
+.header > h1 > span {
+    color: #61DAFB;
+}
+.header > img {
+    width: 40px;
+    margin-right: 7px;
+}
+.header > img:hover {
+    cursor: pointer;
+}
+.header > img:active {
+    transform: scale(0.95);
+}
+.header > img:focus {
+    outline: none;
+}
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.nav-item {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+}
+.nav-item:hover {
+    text-decoration: underline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.footer {
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding: 50px;
 }

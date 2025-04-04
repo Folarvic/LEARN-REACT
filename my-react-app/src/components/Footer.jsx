@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer>
-            <p>© 2023 React Facts. All rights reserved.</p>
+            <p className="footer">© 2023 React Facts. All rights reserved.</p>
         </footer>
     )
 }
