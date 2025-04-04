@@ -29,17 +29,17 @@ header > h1 {
     font-weight: 500;
 }
 
-article.journal-entry {
+main.journal-entry {
     display: flex;
     margin-bottom: 36px;
 }
 
-article.journal-entry .marker {
+main.journal-entry .marker {
     width: 7px;
     margin-right: 4px;
 }
 
-article.journal-entry .main-image-container {
+main.journal-entry .main-image-container {
     width: 125px;
     height: 168px;
     overflow: hidden;
@@ -48,7 +48,7 @@ article.journal-entry .main-image-container {
     margin-right: 19px;
 }
 
-article.journal-entry .main-image {
+main.journal-entry .main-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
